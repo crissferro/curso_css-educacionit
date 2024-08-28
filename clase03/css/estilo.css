@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'work';
+    src: url("/clase03/fuentes/TTF/WorkSans-Medium.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    font-family: 'work';
+    text-align: center;
+}
+
+section {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    /*height: 100vh;*/
+    /*centrar flex en base al eje x*/
+    justify-content: center;
+    /*centrar flex en base al eje y*/
+    align-items: center;
+    /*genero espacios iguales entre los elementos en el eje x*/
+    /*justify-content: space-between;*/
+    gap: 20px;
+    /*añade espacio entre las tarjetas*/
+
+    /*defino un background gradiante*/
+    background-image: linear-gradient(purple, pink);
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    width: 300px;
+}
+
+img {
+    height: 200px;
+    width: auto;
+}
+
+p {
+    text-align: justify;
+    max-width: 250px;
+}
+
+
+
+/*div {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border: 1px solid black;
+    display: block;
+}*/

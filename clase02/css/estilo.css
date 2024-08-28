@@ -1,0 +1,15 @@
+h2 {
+    color: burlywood;
+}
+
+/* uso clases*/
+.encabezado-dos {
+    background-color: blue;
+    color: rebeccapurple;
+    border: 1px;
+}
+
+/*uso id: elementos unicos, menues, js, etc*/
+#encabezado-especial {
+    color: brown;
+}

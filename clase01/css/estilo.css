@@ -1,0 +1,63 @@
+/* desktop first */
+/* es el orden como defino los estilos primero pienso en la web y luego mobile */
+/* primero defino estilos y luego los @media */
+/*
+body {
+    background-color: antiquewhite;
+}
+
+@media (max-width:992px) {
+    body {
+        background-color: aqua;
+    }
+
+    h1 {
+        color: blue;
+    }
+}
+
+@media (max-width:480px) {
+    body {
+        background-color: cadetblue;
+    }
+}
+*/
+
+/* mobile first */
+/* pienso primero el diseño de manera mobile y luego web, es el mas usado */
+
+/*defino primero desde el minimo y no desde el max*/
+
+body {
+    background-color: antiquewhite;
+}
+
+@media (min-width:320px) {
+    body {
+        background-color: aqua;
+    }
+
+    h1 {
+        color: blue;
+    }
+}
+
+@media (min-width:576px) {
+    body {
+        background-color: violet;
+    }
+
+    h1 {
+        color: blue;
+    }
+}
+
+@media (min-width:1280px) {
+    body {
+        background-color: rgb(130, 238, 139);
+    }
+
+    h1 {
+        color: blue;
+    }
+}
